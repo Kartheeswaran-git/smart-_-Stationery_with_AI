@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBsSk3-J7Ub2kkAIAHYbICFLoAizQeFgF0",
-  authDomain: "stationary-shop-db4e0.firebaseapp.com",
-  projectId: "stationary-shop-db4e0",
-  storageBucket: "stationary-shop-db4e0.firebasestorage.app",
-  messagingSenderId: "1013727186543",
-  appId: "1:1013727186543:web:905d5c7c3ede47191d079a"
+  apiKey: "xx-xxxxxxxx",
+  authDomain: "xx-xx.firebaseapp.com",
+  projectId: "x-x-x",
+  storageBucket: "x-x-x.firebasestorage.app",
+  messagingSenderId: "x",
+  appId: "1:x:x:x"
 };
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
